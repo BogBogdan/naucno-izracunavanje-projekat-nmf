@@ -72,7 +72,9 @@ Provere ispravnosti:
 Greške su skoro sve između kategorija tech i entertainment i između politics i business.
 Najveće ograničenje metode je osetljivost na početnu tačku: jedno od šest pokretanja (seme 0)
 završi u lošijem lokalnom minimumu i daje 68,4% tačnosti, iako mu se greška rekonstrukcije
-razlikuje tek u trećoj decimali.
+razlikuje tek u trećoj decimali. U sekciji 6.1 sveske to je i provereno, pokretanjem sa isključenim
+uslovom zaustavljanja: ni posle 2000 iteracija greška i tačnost tog pokretanja se ne menjaju, jer
+multiplikativna pravila ne mogu da razdvoje teme koje su se već slile.
 
 ## Literatura
 
